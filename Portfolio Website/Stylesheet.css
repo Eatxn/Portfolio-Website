@@ -1,0 +1,191 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0,0,0);
+}
+
+
+
+
+
+
+
+
+/*Navigation*/
+nav{
+    background-color: rgb(0, 0, 0);
+    /*Put space between links*/
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 5px solid rgb(98, 94, 94);
+    border-bottom-left-radius: 15px;
+    z-index: 3;
+}
+
+/*Nav sticky class*/
+nav.sticky {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    /*Ensure it spans across the entire Screen*/
+    width: 100%;
+}
+
+li{
+    display: inline;
+    align-items: center;
+}
+
+a {
+    display: block;
+    font-size: 20px;
+    padding: 5px 30px;
+    margin: 0px 20px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*Header*/
+.Welcome {
+    display: inline-block;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 10px solid rgb(77, 75, 70);
+    border-left: 20px solid rgb(113, 112, 110);
+    border-radius: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    translate: 150px 50px;
+}
+
+.header__description{
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    translate: 30px 50px
+}
+
+header {
+    padding-bottom: 300px;
+    background: rgba(255,255,255,0.6) url(Images/IMG_1017.jpg) fixed center;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    background-size: 1400px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Body*/
+h5 {
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section{
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-bottom: 20px solid rgb(0,0,0);
+    border-top: 20px solid rgb(0,0,0);
+    font-size: 220%;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.overlay {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+/*Sections*/
+
+/*Section 1*/
+#About {
+    background: rgba(255,255,255,0.3) url(Images/IMG_0333.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1400px auto;
+}
+
+/*Section 2*/
+#Background {
+    background: rgba(255,255,255,0.3) url(Images/00EAF55E-8CFA-4C5D-AC79-BEFCAF7FCAD0.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px auto;
+}
+
+/*Section 3*/
+#Achievements {
+    background: rgba(255,255,255,0.3) url(Images/9DCF53E9-3350-440F-A773-5C6E056A2DDD.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px auto;
+}
+
+
+/*Section 4*/
+#ContactInformation {
+    background: rgba(255,255,255,0.3) url(Images/2085f117-ecfd-48d4-8a65-b3039bab99e2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px auto;
+}
+
+
+
